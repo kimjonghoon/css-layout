@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="Keywords" content="keywords" />
+<meta name="Description" content="Description" />
+<title>title</title>
+<link rel="stylesheet" href="css/screen.css" type="text/css" />
+</head>
+<body>
+<div id="wrap">
+
+	<div id="header">
+		<h1 style="width: 150px;float: left;"><a href="index.html"><img src="images/ci.gif" alt="java-school" /></a></h1>
+		<div id="memberMenu" style="float: right;position: relative;top: 7px;">
+	            <input type="button" value="SignUp" onclick="location.href = 'signUp.html'">
+		</div>
+	</div>
+    
+	<div id="main-menu">
+		<ul id="nav">
+			<li><a href="index.html">Java</a></li>
+			<li><a href="#">JDBC</a></li>
+			<li><a href="#">JSP</a></li>
+			<li><a href="#">CSS Layout</a></li>
+			<li><a href="#">JSP Project</a></li>
+			<li><a href="#">Spring</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="list.html">BBS</a></li>
+		</ul>
+	</div>
+
+	<div id="container">
+		<div id="content">
+			<div id="content-categories">회원</div>
+			<h3>회원가입</h3>
+			<form id="signUpForm" action="index.html" method="post">
+			<table>
+			<tr>
+				<td style="width: 200px;">이름</td>
+				<td style="width: 390px;"><input type="text" name="name" /></td>
+			</tr>
+			<tr>
+				<td>비밀번호</td>
+				<td><input type="password" name="passwd" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;font-weight: bold;">
+					이메일이 ID 대신 사용되니 이메일 계정 비밀번호를 비밀번호로 하지 마세요!
+				</td>
+			</tr>
+			<tr>
+				<td>확인</td>
+				<td><input type="password" name="confirm" /></td>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+			<tr>
+				<td>이동전화</td>
+				<td><input type="text" name="mobile" /></td>
+			</tr>
+			</table>
+			<div style="text-align: center;padding-bottom: 15px;">
+				<input type="submit" value="전송" />
+			</div>
+			</form>
+
+		</div>
+	</div>
+    
+	<div id="sidebar">
+		<h1>Java</h1>
+		<ul>
+			<li class="sub-heading">자바 소개</li>
+			<li><a href="index.html">자바의 특징</a></li>
+			<li><a href="index.html">객체와 클래스</a></li>
+		</ul>
+	</div>
+    
+	<div id="extra">
+		<a href="http://www.youtube.com"><img src="images/youtube.png" alt="youtube.com" /></a>
+		<a href="http://gmail.com"><img src="images/gmail.gif" alt="gmail.com" /></a>
+		<a href="http://drive.google.com"><img src="images/google-drive.png" alt="drive.google.com" /></a>
+		<a href="https://cloud.google.com/"><img src="images/gcp-logo.png" alt="cloud.google.com" /></a>
+	</div>
+    
+	<div id="footer">
+		<ul>
+			<li><a href="#">이용약관</a></li>
+			<li><a href="#">개인정보보호정책</a></li>
+			<li><a href="#">이메일무단수집거부</a></li>
+			<li id="company-info">
+				전화 : 02-123-5678, FAX : 02-123-5678<br />
+				people@ggmail.org<br />
+				Copyright java-school.net All Rights Reserved.
+			</li>
+			<li><a href="#">찾아오시는 길</a></li>
+		</ul>
+	</div>
+        
+</div>
+
+</body>
+</html>
